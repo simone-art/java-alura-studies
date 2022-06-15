@@ -7,7 +7,7 @@ public class PracticandoComSwitch {
      * O break irá interromper a execução para as outras condições não serem analisadas e executadas.
      * Se nenhuma condição for aceita, o código do default é que será executado.
      * Por exemplo, se o mes for 13, a impressão será Mês inválido.
-     * 
+     *
      */
     public static void main(String[] args) {
 
