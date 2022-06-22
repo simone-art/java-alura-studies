@@ -9,6 +9,15 @@ public class CriarContaProgramacaoOrientadaAobjeto {
         ContaProgramacaoOrientadaAobjeto  primeiraConta = new ContaProgramacaoOrientadaAobjeto();
         primeiraConta.saldo = 200;
         System.out.println("O saldo é: " + 200);
+        primeiraConta.saldo += 100;
+        System.out.println(primeiraConta.saldo);
+
+        ContaProgramacaoOrientadaAobjeto segundaConta = new ContaProgramacaoOrientadaAobjeto();
+        // referência . atributo é uma forma orientada ao objeto.
+        segundaConta.saldo = 50;
+
+        System.out.println("primeira conta tem " + primeiraConta.saldo);
+        System.out.println("segunda conta tem " + segundaConta.saldo);
 
     }
 
