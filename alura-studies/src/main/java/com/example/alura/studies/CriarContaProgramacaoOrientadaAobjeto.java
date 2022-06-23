@@ -19,6 +19,11 @@ public class CriarContaProgramacaoOrientadaAobjeto {
         System.out.println("primeira conta tem " + primeiraConta.saldo);
         System.out.println("segunda conta tem " + segundaConta.saldo);
 
+        //Quando o Java instancia o objeto o valor do atributo
+        // é zero por default como mostra as variáveis abaixo
+        System.out.println(primeiraConta.agencia);
+        System.out.println(primeiraConta.numero);
+
     }
 
 }
