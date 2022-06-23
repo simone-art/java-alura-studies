@@ -21,8 +21,15 @@ public class CriarContaProgramacaoOrientadaAobjeto {
 
         //Quando o Java instancia o objeto o valor do atributo
         // é zero por default como mostra as variáveis abaixo
+        //Se você setar um valor na classe principal, na hora de instanciar o objeto esse valor será impresso
+        // Na variável primeiraConta.agencia vai ser mostrado o valor 42
         System.out.println(primeiraConta.agencia);
         System.out.println(primeiraConta.numero);
+
+        System.out.println(segundaConta.agencia);
+
+        segundaConta.agencia = 146;
+        System.out.println("agora a segunda conta está na agencia " + segundaConta.agencia);
 
     }
 
