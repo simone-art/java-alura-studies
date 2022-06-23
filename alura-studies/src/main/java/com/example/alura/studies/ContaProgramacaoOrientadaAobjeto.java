@@ -7,4 +7,12 @@ public class ContaProgramacaoOrientadaAobjeto {
      int agencia;
      int numero;
      String titular;
+
+     //Definindo o método
+    // Saldo é um atributo da conta
+    // Valor é uma variável e dentro do método ele é um parâmetro
+    // É opcional usar a aplavra chave this, que faz referência ao atributo do objeto
+     public void deposita(double valor){
+         this.saldo = this.saldo + valor;
+     }
 }
