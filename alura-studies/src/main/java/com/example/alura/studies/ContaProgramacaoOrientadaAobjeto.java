@@ -6,7 +6,8 @@ public class ContaProgramacaoOrientadaAobjeto {
      double saldo;
      int agencia;
      int numero;
-     String titular;
+     // Cliente aqui é uma classe que vai ser usada em outra
+     Cliente titular;
 
      //Definindo o método
     // Saldo é um atributo da conta
