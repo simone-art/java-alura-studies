@@ -12,9 +12,20 @@ public class ContaProgramacaoOrientadaAobjeto {
      // Cliente aqui é uma classe que vai ser usada em outra
     private  Cliente titular;
 
+    // O construtor define as restrições e informações específicas de um objeto
+    // Construtor vazio
+    public ContaProgramacaoOrientadaAobjeto(){
+
+    }
+
+    // Construtor com parâmetros
+    public ContaProgramacaoOrientadaAobjeto(int agencia, int numero){
+        this.agencia = agencia;
+        this.numero = numero;
+
+    }
+
     // Criando getters e setters permite prevacer o comportamento do objeto
-
-
     public double getSaldo() {
         return saldo;
     }
