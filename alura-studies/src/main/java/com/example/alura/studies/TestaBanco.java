@@ -13,7 +13,7 @@ public class TestaBanco {
         ContaProgramacaoOrientadaAobjeto contaDaSimone = new ContaProgramacaoOrientadaAobjeto();
         contaDaSimone.deposita(100);
 
-        contaDaSimone.titular = simone;
-        System.out.println(contaDaSimone.titular.nome);
+        contaDaSimone.setTitular(simone);
+        System.out.println(contaDaSimone.setTitular().nome);
     }
 }
