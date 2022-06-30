@@ -11,6 +11,8 @@ public class ContaProgramacaoOrientadaAobjeto {
      private int numero;
      // Cliente aqui é uma classe que vai ser usada em outra
     private  Cliente titular;
+    //O Static se usa como referência a classe. Neste caso a ContaProgramação
+    private static int total;
 
     // O construtor define as restrições e informações específicas de um objeto
     // Construtor vazio
@@ -20,8 +22,11 @@ public class ContaProgramacaoOrientadaAobjeto {
 
     // Construtor com parâmetros
     public ContaProgramacaoOrientadaAobjeto(int agencia, int numero){
+        ContaProgramacaoOrientadaAobjeto.total ++;
+        System.out.println("o total de contas é " + ContaProgramacaoOrientadaAobjeto.total);
         this.agencia = agencia;
         this.numero = numero;
+        System.out.println("estou criando uma conta " + this.numero);
 
     }
 
